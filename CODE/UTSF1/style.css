@@ -1,0 +1,162 @@
+@media screen and (max-width:680px){
+
+	#container{
+		width: auto;
+		float: none;
+	}
+}
+
+@media screen and (min-width:680px){
+
+	#container{
+		width: auto;
+		float: none;
+	}
+}
+
+#container{ /*style container*/
+    width:100%;
+    min-height:600px;
+    margin: 10px auto;
+    border:#CCC solid 1px;
+    background:lightblue;
+    
+}
+
+#container .header{ /*style header*/
+    height:100px;
+    background:lightyellow;
+    font-size:14px;
+    color:brown;
+    padding:10px;
+}
+
+#container .menu{ /*style menu*/
+    height:50px;
+    background:lightblue;
+    font-size:14px;
+    color:brown;
+}
+
+#container .menu ul{ /*style menu button*/
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#container .menu ul li a{
+    min-width: 100px;
+    height:30px;
+    float:left;
+    padding-top:8px;
+    margin:5px;
+    color:brown;
+    text-align:center;
+    font-size:14px;
+    background:lightyellow;
+    text-decoration:none;
+}
+
+#container .menu ul li a:hover{ /*style hover menu button*/
+    font-size:16px;
+    background:whitesmoke;
+}
+
+#container .konten{
+    min-height:1300px;
+    background:grey;
+}
+
+#container .konten .konten-kiri{
+    width:70%;
+    min-height:400px;
+    border:lightgray solid 1px;
+    float:left;
+    background:lightgray;
+}
+
+#container .konten .konten-kanan{
+    width:28%;
+    min-height:400px;
+    border:lightgray solid 1px;
+    float:right;
+    background:lightgray;
+}
+
+#container .footer{
+    text-align:center;
+    color:black;
+    font-size:12px;
+    height:80px;
+    padding-top:15px;
+}
+
+.feedberita{
+    padding:10px;
+    border:lightslategrey solid 1px;
+    border-radius:10px;
+    background:lightslategrey;
+    height:auto;
+}
+.login{
+    background:lightyellow;
+    font-size:16px;
+    margin:20px auto;
+    width:400px;
+    padding:15px;
+}
+.login h2{
+    color:brown;
+}
+
+.login .input{
+    width:100%;
+    height:30px;
+    padding:5px;
+    margin-top:5px;
+    font-size:18px;
+}
+
+.login button{
+    width:100%;
+    height:30px;
+    background:lightskyblue;
+    color:brown;
+    font-size:16px;
+    border-radius:10px;
+    border:black solid 1px;
+    margin:15px;
+}
+
+.login button:hover{
+    background:limegreen;
+}
+
+.konten-kanan ul{ /*style menu button*/
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.konten-kanan ul li a{
+    width: 100%;
+    height:30px;
+    float:left;
+    color:brown;
+    text-align:center;
+    font-size:14px;
+    background:lightyellow;
+    text-decoration:none;
+}
+
+.konten-kanan ul li a:hover{ /*style hover menu button*/
+    font-size:16px;
+    background:whitesmoke;
+}
+
+#container .konten .iklan{
+    width:28%;
+    min-height:400px;
+    float:right;
+    background:lightgray;
+}
